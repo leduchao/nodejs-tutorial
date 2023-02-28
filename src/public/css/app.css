@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, sans-serif; }
+
+body {
+  height: 100vh;
+  background-color: gray; }
+
+.app {
+  height: 100%; }
+  .app header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    background-color: green;
+    box-shadow: 0 2px 10px -2px black;
+    text-align: center; }
+  .app .container {
+    max-width: 960px;
+    height: 900px;
+    margin: 50px auto 0;
+    background-color: white;
+    color: black; }
+  .app footer {
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    color: white; }
